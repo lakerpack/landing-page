@@ -1,1 +1,2 @@
 # landing-page
+This is essentially practice for HTML & CSS by replicating the design shown in https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png to the best of my abilities. 
