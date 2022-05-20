@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
 }
 
 .logo{
@@ -31,4 +32,57 @@ a{
 ul{
     display: flex;
     gap: 10px;
+}
+
+.first{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+.first-left{
+    max-width: 430px;
+    margin: 50px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.subtext{
+    font-size: 20px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: 5px;
+    font-size: 18px;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.second{
+    display: flex;
+}
+
+.third{
+    display: flex;
+}
+
+.fourth{
+    display: flex;
+}
+
+.footer{
+    display:flex;
 }
