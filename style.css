@@ -6,7 +6,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    justify-content: center;
+    flex-grow: 1;
+    justify-content: center;    
+    width: 200vh;
+    height: 200vh;
 }
 
 .header{
@@ -76,7 +79,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    padding: 60px 0 160px;
     gap: 15px;
     font-size: 36px;
     font-weight: bolder;
@@ -99,7 +102,7 @@ button{
     background-color: #E5E7EB;
     align-items: center;
     justify-content: flex-end;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .quote, .attribution{
@@ -109,15 +112,19 @@ button{
 
 .quote{
     margin: 10px;
-    font-size: 30px;
+    font-size: 36px;
     font-style: italic;
 }
 
 .attribution{
     justify-content: flex-end;
     font-weight: bold;
+    font-size: 20px;
 }
 
+.fourth{
+    padding: 60px 0;
+}
 
 .fourth-interior{
     margin: 60px 500px;
